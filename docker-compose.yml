@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bulk_certificate_api
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./certificates.db
+      - MAX_RECIPIENTS_PER_BATCH=5000
+    volumes:
+      - ./storage:/app/storage
+      - ./certificates.db:/app/certificates.db
+    restart: unless-stopped

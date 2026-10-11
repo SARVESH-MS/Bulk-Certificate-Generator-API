@@ -1,0 +1,36 @@
+{
+  "event_name": "Full Stack & Cloud Architecture Masterclass 2026",
+  "issue_date": "October 11, 2026",
+  "issuer_name": "Aereo Engineering Academy",
+  "certificate_title": "Certificate of Distinction",
+  "description": "For demonstrating exceptional mastery in distributed systems and cloud architecture.",
+  "recipients": [
+    {
+      "name": "Sarah Connor",
+      "email": "sarah.connor@example.com",
+      "identifier": "ENG-2026-001",
+      "custom_attributes": {
+        "Grade": "A+",
+        "Honors": "Summa Cum Laude"
+      }
+    },
+    {
+      "name": "David Miller",
+      "email": "david.miller@example.com",
+      "identifier": "ENG-2026-002",
+      "custom_attributes": {
+        "Grade": "A",
+        "Honors": "Magna Cum Laude"
+      }
+    },
+    {
+      "name": "Elena Rostova",
+      "email": "elena.rostova@example.com",
+      "identifier": "ENG-2026-003",
+      "custom_attributes": {
+        "Grade": "A+",
+        "Capstone": "Distributed Consensus Engine"
+      }
+    }
+  ]
+}
